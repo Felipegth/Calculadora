@@ -1,7 +1,31 @@
-# Calculadora Linguagem C#
-## Criando Primeira Calculadora em C# usando Visual Studio Code
-Programa Calculadora usando operaçoes Básicas + - * /
+# Calculadora
 
-![CalculadoraGIF](https://github.com/Felipegth/Calculadora/blob/master/CalculadoraGIF.gif)
+Projeto modelo de estudo de aplicação de conceitos SOLID em .NET.
+## Prerequisites
 
-### Calculadora Talk And Live 
+* .NET 5.0
+* Visual Studio Code
+
+## Create project
+
+```shell
+mkdir ./src
+touch README.md
+git init
+dotnet new gitignore
+```
+
+```shell
+cd src
+dotnet new console -o Calculadora
+```
+
+## Build
+
+```shell
+dotnet run --project src\Calculadora\Calculadora.csproj
+```
+
+## References
+
+SOLID - https://pt.wikipedia.org/wiki/SOLID
